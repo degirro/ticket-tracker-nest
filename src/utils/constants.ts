@@ -1,0 +1,16 @@
+export enum Routes {
+  AUTH = 'auth',
+  USERS = 'users',
+  TICKETS = 'tickets',
+  WORKSPACES = 'workspaces',
+  NOTIFICATIONS = 'notifications',
+}
+
+export enum Services {
+  AUTH = 'AUTH_SERVICE',
+  USERS = 'USERS_SERVICE',
+  NOTIFICATIONS = 'NOTIFICATIONS_SERVICE',
+  TICKETS = 'TICKETS_SERVICE',
+  WORKSPACES = 'WORKSPACES_SERVICE',
+  GATEWAY_SESSION_MANAGER = 'GATEWAY_SESSION_MANAGER',
+}
